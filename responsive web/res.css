@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: absolute;
+    /* background-color: #413b3b; */
+    font-family: GOST Common;
+    cursor: pointer;
+}
+.div{
+    background-color: #413b3b;
+    padding-bottom: 30px;
+}
+.navbar{
+    background-color: #413b3b;
+
+    justify-content: end;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #e5e5ed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100px;
+    transition: all 2s;
+}
+.navbar a:hover{
+    text-decoration: underline;
+    color: white;
+    padding: 10px;
+}
+.navbar h2{
+    color: #e5e5ed;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+}
+.img-sub img{
+    width: 150%;
+    justify-content: center;
+    margin-left: -130px;
+}
+.img-sub{
+    background-color: #413b3b;
+    padding-top: center;
+}
+.hero-text h1{
+    text-align: center;
+    color: #e5e5ed;
+    font-size: 40px;
+    font-weight: lighter;
+    padding-left: 20px;
+}
+.name h1{
+    margin-top: -95px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 30px;
+    background-color: #413b3b;
+    transition: all 1s;
+}
+.name h1:hover{
+    color: rgb(189, 189, 188);
+    transform: scale(1.1);
+}
+.btn{
+    background-color: #413b3b;
+}
+.btn-1{
+    text-align: center;
+    margin: 40px;
+}
+.btn-1 a{
+    margin-top: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    background-color: #413b3b;
+    padding: 10px 180px 10px 180px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+    transition: all 1s;
+}
+.btn-1 a:hover{
+    background-color: #2d2a2ab1;
+}
+.btn-2{
+    text-align: center;
+    margin-top: 40px;
+}
+.btn-2 a{
+    margin-top: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    background-color: #413b3b;
+    padding: 10px 155px 10px 155px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+    transition: all 1s;
+}
+.btn-2 a:hover{
+    background-color: #180d0db1;
+}
+.footer{
+    background-color: #140808f2;
+}
+.footer h1{
+    padding-top: 20px;
+    text-align: center;
+}
+.footer a{
+    text-align: center;
+    font-family: gost common;
+    text-decoration: none;
+    padding-top: 20px;
+    color: #aaa8a8;
+}
+.footer a:hover{
+    color: #8f8989;
+}
+.footer p{
+    padding: 20px;
+    text-align: center;
+    color: #aaa8a8;
+}
